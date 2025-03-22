@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: rgb(214, 214, 212);
+  color: rgb(37, 35, 35);
+}
+.dark-theme {
+  background-color: rgb(37, 35, 35);
+  color: rgb(214, 214, 212);
+}
+.card {
+  background-color: rgb(165, 165, 164);
+  border-radius: 10px;
+  padding: 10px;
+}
+.dark-theme .card {
+  background-color: rgb(99, 98, 98);
+  border-radius: 10px;
+  padding: 10px;
+}
